@@ -1,67 +1,36 @@
-# Textsense
+# Moyubie
 
-Certainly! Here's a guide you can provide to the Hackathon judges to help them access and test the **TextSense** application:
+<img src="./assets/icon/icon.png" alt="drawing" width="128"/>
 
----
+Moyubie is a cross-platform AI powered IM (Instant Messaging) APP.
 
-### **Instructions for Hackathon Judges: Accessing and Testing TextSense**
+* It is a convenient and powerful AI chat client. Chat messages are synchronized between different devices.
+* Users can chat to anyone in a chat room in a private environment
+  * There is no server side required. Chat messages are secure and completely owned by users.
+* A news list powered by AI
+* Supported platforms
+  * iOS, Android, MacOS, Windows, Linux
 
-**Thank you for reviewing our project, TextSense. Below are the steps to access, run, and test the application.**
+## Powered By
 
-#### **1. Accessing the Source Code**
-- **GitHub Repository:** The source code for TextSense is hosted on GitHub. You can access it via the following link:
-  - [GitHub Repository Link](#) *(replace with the actual link)*
+* [TiDB Cloud Serverless](https://tidbcloud.com/free-trial)
+* AGI services. Currently supports
+  * ChatGPT
 
-#### **2. Setting Up the Development Environment**
-To run the TextSense app locally, you need to set up the Flutter development environment.
+## Development
 
-- **Step 1:** Ensure you have [Flutter installed](https://flutter.dev/docs/get-started/install) on your machine.
-- **Step 2:** Clone the GitHub repository to your local machine:
-  ```bash
-  git clone https://github.com/yourusername/textsense.git
-  cd textsense
-  ```
-- **Step 3:** Install the required dependencies:
-  ```bash
-  flutter pub get
+* You can learn how to prepare flutter development environment, compile and test a [flutter](https://flutter.dev) app from [flutter.dev](https://flutter.dev/).
+* After all required tools are installed, you can compile and debug the app by
   ```
   
-#### **3. Running the Application**
-Once the environment is set up, you can run the application on an emulator or a physical device.
-
-- **Step 1:** Connect a device or start an emulator.
-- **Step 2:** Run the application using the following command:
-  ```bash
-  flutter run
+  git clone git@github.com:flowbehappy/moyubie.git
+  cd moyubie
+  flutter doctor     # Make sure everything is fine
+  flutter devices    # See what devices or simulator you have
+  flutter run        # Run the app. You can also run the app in a specific device/simulator by: flutter run -d <device_id>
   ```
-- **Step 3:** The application should now be running on the connected device or emulator.
 
-#### **4. Testing the Features**
-The app provides the following key features:
+## Downloads
 
-- **Sentiment Analysis:**
-  - Navigate to "Sentiment Analysis" from the home screen.
-  - Enter any text and click "Analyze Sentiment" to see the result.
-  
-- **Text Summary:**
-  - Navigate to "Text Summary."
-  - Enter text and click "Summarize Text" to generate a summary.
+Select the latest release from [here](https://github.com/flowbehappy/moyubie/tags).
 
-- **Keyword Extraction:**
-  - Navigate to "Keyword Extraction."
-  - Input text and click "Extract Keywords" to view the key terms.
-
-- **Language Detection:**
-  - Navigate to "Language Detection."
-  - Enter text and click "Detect Language" to identify the language.
-
-#### **5. Additional Information**
-- **Flutter Version:** Ensure you are using the recommended Flutter version specified in the `pubspec.yaml` file.
-- **Platforms Supported:** The app can be run on Android, iOS, and web platforms.
-
-#### **6. Feedback**
-We would greatly appreciate your feedback. If you encounter any issues or have any suggestions, please feel free to reach out via the GitHub Issues section of the repository.
-
----
-
-This set of instructions should help the judges easily set up, run, and test the TextSense application during the Hackathon evaluation. If you need to customize it further, feel free to adjust any section!
